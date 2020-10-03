@@ -1,1 +1,1 @@
-# cst-221
+About me : I am Mann Jaiswal, a student from Grand Canyon University. I am currently in my junior year pursuing my bachelors in computer programming. I like to learn coding and keep myself updated with technology. Something I love besides coding is Acting/Directing and Video Editing. 
