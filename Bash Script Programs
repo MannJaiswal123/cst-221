@@ -1,0 +1,58 @@
+ Shell/Bash Script Programs:-
+1.Read From a File
+#!/bin/bash
+file="/home/mann /data.txt"
+while IFS= read -r line
+do
+        # display $line or do somthing with $line
+	printf '%s\n' "$line"
+done <"$file"
+2.Create a File
+#!/bin/bash
+
+echo "some file content" > /home/mann/data.txt
+3.Open a File
+
+#!/bin/bash
+Gedit data.txt
+
+chmod +x test.sh
+
+./test.sh
+
+4.Write to a File
+# create a variable to represent the filename
+COUNTER_FILE="data.txt"
+
+# write to the file
+echo "0" > $COUNTER_FILE
+
+5.Close a File
+	To close a file using bash script use ‘ESC+wq’.
+6.Make directory using shell Script
+echo "Enter directory name"
+read dirname
+
+if [[ ! -d "$dirname" ]]
+then
+    if [ -L “$dirname” ]
+then
+    echo "File doesn't exist. Creating now"
+    mkdir ./$dirname
+    echo "File created"
+    else
+        echo "File exists"
+    fi
+fi
+
+7.Open Directory using shell script
+ #!/bin/bash
+cd datadir
+chmod +x test.sh
+./test.sh
+
+8.Remove Directory using shell script 
+#!/bin/bash
+rmdir datadir
+chmod +x test.sh
+./test.sh
