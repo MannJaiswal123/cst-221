@@ -1,0 +1,58 @@
+Press Enter to continue. 1 = Yes | 2 = No1
+Entered Value was 1
+
+ Successfully built unique book.
+Started teacher Process with Process ID of 613......
+Started student Process with Process ID of 614......
+    student Process uniqueBook count is 1.
+    student Process is using the unique book.
+    student Process uniqueBook count is 0.
+   lets start a long student process ..... its time for student to learn some long stuff......
+.
+.
+Student Process is running.....
+teacher Process uniqueBook count is 0.
+trying to check status of student process.....
+Here we gonna check that student process stucked or no.....
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+ohh look it is hung.....
+ killing student process  with ID of 614
+Press 1 to continue to kill student  Process.
+.
+.
+.
+.
+.
+.
+1.
+.
+.
+.
+.
+.
+.
+.
+1.
+
+if you want to continue you have to kill the student process so for that please enter 1.
+.
+.
+.
+1
+student Process is killed
+its time to proove that student process is killed
+Proved
+In the student Process with the unique book count of 0.
+Finally using the One Way Bridge.
+Exit teacher Process.
+
+
